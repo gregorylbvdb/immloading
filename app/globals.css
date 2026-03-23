@@ -1,0 +1,20 @@
+:root {
+  --navy: #274172;
+  --red: #B31E39;
+  --lightgray: #ECEFEF;
+  --white: #ffffff;
+  --text-dark: #1a2035;
+  --text-mid: #4a5568;
+  --text-light: #6b7280;
+  --border: #d8dde8;
+  --card-shadow: 0 2px 12px rgba(39,65,114,0.10);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--lightgray);
+  color: var(--text-dark);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+  min-height: 100vh;
+}
