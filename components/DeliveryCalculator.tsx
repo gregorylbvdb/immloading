@@ -1,7 +1,6 @@
 'use client'
 
 import { useState } from 'react'
-import Image from 'next/image'
 import { COLS, DATA, type Methode, type Dag, type Product, type DeliverySlot } from '@/lib/deliveryData'
 import styles from './DeliveryCalculator.module.css'
 
@@ -55,7 +54,8 @@ export default function DeliveryCalculator() {
     <>
       {/* Top bar */}
       <div className={styles.topbar}>
-        <Image src="/logovdbwit.svg" alt="Dental Labo Vanderbeken" height={60} width={200} style={{ objectFit: 'contain', height: 60, width: 'auto' }} />
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src="/logovdbwit.svg" alt="Dental Labo Vanderbeken" style={{ height: 60, width: 'auto', objectFit: 'contain' }} />
         <span className={styles.topbarTitle}>Immediate Loading leveringstermijnen</span>
       </div>
 
@@ -172,11 +172,10 @@ export default function DeliveryCalculator() {
       </div>
 
       {/* Fixed logo bottom right */}
-      <Image
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
         src="/logovdbkleur.svg"
         alt="Dental Labo Vanderbeken"
-        height={80}
-        width={200}
         style={{ position: 'fixed', bottom: 20, right: 20, height: 80, width: 'auto', objectFit: 'contain', opacity: 0.9, zIndex: 100 }}
       />
     </>
