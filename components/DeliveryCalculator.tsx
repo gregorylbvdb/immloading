@@ -55,7 +55,7 @@ export default function DeliveryCalculator() {
     <>
       {/* Top bar */}
       <div className={styles.topbar}>
-        <Image src="/logo.png" alt="Dental Labo Vanderbeken" height={60} width={200} style={{ objectFit: 'contain', height: 60, width: 'auto' }} />
+        <Image src="/logovdbwit.svg" alt="Dental Labo Vanderbeken" height={60} width={200} style={{ objectFit: 'contain', height: 60, width: 'auto' }} />
         <span className={styles.topbarTitle}>Immediate Loading leveringstermijnen</span>
       </div>
 
@@ -173,11 +173,11 @@ export default function DeliveryCalculator() {
 
       {/* Fixed logo bottom right */}
       <Image
-        src="/logo.png"
+        src="/logovdbkleur.svg"
         alt="Dental Labo Vanderbeken"
-        height={120}
+        height={80}
         width={200}
-        style={{ position: 'fixed', bottom: 20, right: 20, height: 120, width: 'auto', objectFit: 'contain', opacity: 0.9, zIndex: 100 }}
+        style={{ position: 'fixed', bottom: 20, right: 20, height: 80, width: 'auto', objectFit: 'contain', opacity: 0.9, zIndex: 100 }}
       />
     </>
   )
