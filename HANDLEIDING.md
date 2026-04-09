@@ -8,7 +8,7 @@ Handleiding voor het onderhoud en deployen van de leveringstermijn tool van Dent
 
 | Omgeving | Gebruik | URL |
 |----------|---------|-----|
-| **Test** | Wijzigingen testen vóór ze live gaan | https://immloading-git-dev-gregorylbvdbs-projects.vercel.app/ |
+| **Test** | Wijzigingen testen vóór ze live gaan | https://immloading-git-dev-gregorylbvdbs-projects.vercel.app/ *(vereist geen login na uitschakelen Deployment Protection in Vercel dashboard → Settings → Deployment Protection)* |
 | **Live** | Zichtbaar voor tandartspraktijken | https://immloading.vercel.app |
 
 Elke keer je een wijziging pusht naar de **dev** branch, wordt de testomgeving automatisch bijgewerkt.
