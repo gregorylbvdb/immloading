@@ -55,7 +55,7 @@ export default function DeliveryCalculator() {
     <>
       {/* Top bar */}
       <div className={styles.topbar}>
-        <Image src="/logo.png" alt="Dental Labo Vanderbeken" height={44} width={120} style={{ objectFit: 'contain' }} />
+        <Image src="/logo.png" alt="Dental Labo Vanderbeken" height={56} width={180} style={{ objectFit: 'contain' }} />
         <span className={styles.topbarTitle}>Immediate Loading leveringstermijnen</span>
       </div>
 
